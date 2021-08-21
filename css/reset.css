@@ -1,0 +1,51 @@
+/* Web Font Link */
+@font-face {
+  font-family: 'SDSamliphopangche_Basic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Basic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NEXON Lv2 Gothic Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NEXON Lv2 Gothic Light';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NEXON Lv2 Gothic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Remove Default Style */
+*{margin:0; padding:0; box-sizing: border-box;}
+a{color:#3B3838; text-decoration: none;}
+ol, ul{list-style:none;}
+input, button, textarea{outline:0; border-radius:0; border: 0; padding: 10px; color: #3B3838;}
+input::placeholder{color: #767171;}
+textarea{resize:none; font-family: 'NEXON Lv2 Gothic Light', sans-serif; color:#767171; font-size: 12px;}
+img{display:block; object-fit: cover;}
+em{font-style: normal;}
+b{font-weight: normal;}
+
+/* Setting Reset Layout Style */
+.center{width:80%; margin:auto; max-width:1230px; height:auto;}
+
+.wrap{width:100%; height:auto;}
+.clearfix:after{display:block; content:''; clear:both;}
+body{font-size:14px; font-family: 'S-CoreDream-3Light', sans-serif; color:#3B3838; _height:3000px;}
+h1{font-family: 'SDSamliphopangche_Basic', sans-serif; color:#3B3838; font-size: 42px;}
+h2{font-family: 'NEXON Lv2 Gothic', sans-serif; color:#3B3838; font-size: 28px;}
+h3{font-family: 'NEXON Lv2 Gothic Bold', sans-serif; color:#3B3838; font-size: 18px;}
+h4{font-family: 'NEXON Lv2 Gothic Light', sans-serif; color:#3B3838; font-size: 12px;}
+
+/* Common Elements Style Code */
