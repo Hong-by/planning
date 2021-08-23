@@ -36,6 +36,7 @@ textarea{resize:none; font-family: 'NEXON Lv2 Gothic Light', sans-serif; color:#
 img{display:block; object-fit: cover;}
 em{font-style: normal;}
 b{font-weight: normal;}
+p{font-size:14px; font-family: 'S-CoreDream-3Light', sans-serif; color:#3B3838;}
 
 /* Setting Reset Layout Style */
 .center{width:80%; margin:auto; max-width:1230px; height:auto;}
